@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styling.css">
+    <script src="/js/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="flexContainer">
+        <div id="gameNameContainer">
+            <h1 id="gameName">Rock Paper Scissor</h1>
+            <h2 id="tagLine">Den som först får tre poäng vinner!</h2>
+        </div>
+    </div>
+
+    <form id="usernameContainer">
+        <p id="instructionText">Skriv in ditt användarnamn. Tryck sedan på knappen för att börja spelet. </p>
+        <input type="text" id="usernameInput" required>
+        <button id="startButton">Starta spelet</button>
+
+    </form>
+
+    <h1 id="username"></h1>
+
+    <div id="imgGridContainer">
+        <p>Välj mellan Rock, Paper, Scissor</p>
+        <div id="imgContainer">
+            <img src="/images/rock.jpeg" id="rock">
+            <img src="/images/paperBag.jpeg" alt="" id="paper">
+            <img src="/images/scissor.jpeg" alt="" id="scissor">
+
+        </div>
+    </div>
+
+    <div id="gridContainer">
+        <div id="printContainer">
+            <h4 id="userChoice"></h4>
+            <h4 id="computerChoice"></h4>
+            <h4 id="whoWon"></h4>
+        </div>
+        <div id="scoreContainer">
+            <h5 id="playerScoreText"></h5>
+            <h5 id="computerScoreText"></h5>
+        </div>
+    </div>
+
+    <div id="hsContainer">
+        <h2>Highscore</h2>
+        <ol id="lista"></ol>
+    </div>
+
+    <div id="startOverContainer">
+        <h3 id="endResult"></h3>
+        <button id="startOverBtn">Starta om?</button>
+    </div>
+</body>
+
+</html>

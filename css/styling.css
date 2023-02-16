@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body{
+    background-color: hsl(220, 60%, 70%);
+}
+#flexContainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+#gameNameContainer{
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 75vw;
+    background-color: hsl(245, 60%, 80%);
+    border-radius: 25px;
+    box-shadow: 7px 10px hsl(220, 60%, 60%);
+}
+#gameName{
+    font-size: 50px;
+    font-family: monospace;
+    color:hsl(20, 70%, 45%);
+}
+#tagLine{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(0, 70%, 30%);
+}
+#usernameContainer{
+    margin: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: hsl(245, 60%, 80%);
+    border: 1px solid white;
+    border-radius: 15px;
+}
+p{
+    padding: 10px;
+    font-size: 17.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(0, 70%, 30%);
+    text-align: center;
+}
+#usernameInput{
+    width: 200px;
+    height: 20px;
+    padding: 2px;
+    border: .5px solid white;
+    border-radius: 5px;
+    color: hsl(20, 70%, 45%);
+    text-align: center;
+}
+button{
+    width: 80px;
+    margin: 5px;
+    padding: 1.5px;
+    background-color: hsl(220, 60%, 60%);
+    color: whitesmoke;
+    border: 1.5px solid black;
+}
+#username{
+    margin: 30px;
+    font-size: 25px;
+    font-family: monospace;
+    color:hsl(20, 70%, 45%);
+    text-align: center;
+}
+#imgGridContainer{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+#chooseBetween{
+    grid-row: 1/2;
+}
+#imgContainer{
+    grid-row: 2/3;
+    width: 70vw;
+    height: 5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(245, 60%, 80%);
+    border-radius: 20px;
+    box-shadow: 7px 10px hsl(220, 60%, 60%);
+}
+#gridContainer{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+#scoreContainer{
+    grid-row: 2/3;
+}
+h5{
+    margin: 20px;
+    font-size: 15px;
+    font-family: monospace;
+    color:hsl(0, 70%, 30%);
+    text-align: center;
+}
+#printContainer{
+    grid-row: 1/2;
+    margin: 20px;
+    padding: 5px;
+    background-color: hsl(245, 60%, 80%);
+    border-radius: 20px;
+    box-shadow: 7.5px 5px hsl(220, 60%, 60%);
+}
+h4{
+    margin: 5px;
+    font-size: 10px;
+    font-family: monospace;
+    color:hsl(0, 70%, 30%);
+    text-align: center;
+}
+h3{
+    margin: 10px;
+    font-size: 40px;
+    font-family: monospace;
+    color:hsl(20, 70%, 45%);
+    text-align: center;
+}
+#hsContainer{
+    /* border: 2px solid black; */
+    /* width: 50%; */
+    margin: 2rem 20vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: hsl(20, 70%, 45%);
+}
+h2{
+    font-family: monospace;
+    color: hsl(20, 90%, 10%);
+    margin: .5rem;
+}
+li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(60, 70%, 75%);
+    margin: .5rem;
+}
+#startOverContainer{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
